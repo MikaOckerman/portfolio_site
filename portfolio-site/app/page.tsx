@@ -1,10 +1,9 @@
 import Link from 'next/link';
-import Navbar from './components/navbar';
+//import Navbar from './components/navbar';
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="bg-gray-50 min-h-screen">
         <header className="bg-gray-100 py-12 text-center shadow-sm">
           <h1 className="text-5xl font-extrabold text-gray-900">Welcome to My Portfolio</h1>
