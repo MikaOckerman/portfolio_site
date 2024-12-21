@@ -1,9 +1,24 @@
 export default function Projects() {
     const projects = [
       {
-        name: 'Flashcard App',
-        description: 'A Python-based app for efficient studying.',
-        link: '/projects/flashcard',
+        title: "Flashcard App",
+        description: "A Python-based app for efficient studying.",
+        link: "/projects",
+      },
+      {
+        title: "Data Analytics",
+        description: "A Python-based app for using machine learning techniques on data and then portraying it in meaningful ways.",
+        link: "/projects",
+      },
+      {
+        title: "Password Vault?",
+        description: "An app to hold and share passwords.",
+        link: "/projects",
+      },
+      {
+        title: "Crypto Scrape and Recommend App",
+        description: "A Python-based app to scrape Binance (others?) and recommend cryptos.",
+        link: "/projects",
       },
     ];
   
@@ -15,7 +30,7 @@ export default function Projects() {
         <ul className="space-y-6">
           {projects.map((project, index) => (
             <li key={index} className="p-4 border rounded shadow">
-              <h2 className="text-xl font-bold">{project.name}</h2>
+              <h2 className="text-xl font-bold">{project.title}</h2>
               <p className="mt-2">{project.description}</p>
               <a
                 href={project.link}

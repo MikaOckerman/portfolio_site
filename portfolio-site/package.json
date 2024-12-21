@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/libre-baskerville": "^5.1.0",
+    "@fontsource/my-soul": "^5.1.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@fontsource/rye": "^5.1.0",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"

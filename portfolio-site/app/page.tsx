@@ -7,7 +7,7 @@ export default function Home() {
       <div className="bg-gray-50 min-h-screen">
         <header className="bg-gray-100 py-12 text-center shadow-sm">
           <h1 className="text-5xl font-extrabold text-gray-900">Welcome to My Portfolio</h1>
-          <p className="text-lg text-gray-600 mt-4">
+          <p className="font-accent text-3xl text-gray-700 mt-4">
             Explore my work, learn about my journey, and connect with me.
           </p>
         </header>
@@ -21,6 +21,24 @@ export default function Home() {
                   Flashcard App
                 </Link>
                 <p className="text-gray-600 mt-2">A Python-based app for efficient studying.</p>
+              </li>
+              <li className="p-4 bg-white shadow rounded-lg hover:shadow-lg transition-shadow">
+                <Link href="/projects" className="text-blue-600 text-lg font-semibold hover:underline">
+                  Data Analytics
+                </Link>
+                <p className="text-gray-600 mt-2">A Python-based app for using machine learning techniques on data and then potraying it in meaningful ways.</p>
+              </li>
+              <li className="p-4 bg-white shadow rounded-lg hover:shadow-lg transition-shadow">
+                <Link href="/projects" className="text-blue-600 text-lg font-semibold hover:underline">
+                  Password Vault?
+                </Link>
+                <p className="text-gray-600 mt-2">An app to hold and share passwords.</p>
+              </li>
+              <li className="p-4 bg-white shadow rounded-lg hover:shadow-lg transition-shadow">
+                <Link href="/projects" className="text-blue-600 text-lg font-semibold hover:underline">
+                  Crypto Scrape and Recommend App
+                </Link>
+                <p className="text-gray-600 mt-2">A Python-based app to scrape binance(others?) and recommend cryptos.</p>
               </li>
             </ul>
           </section>
